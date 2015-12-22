@@ -1,0 +1,55 @@
+{
+  "name": "web-enhance",
+  "version": "1.0.0",
+  "description": "This is for nodejs web self-studying enhancement phase.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test app",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamKong/Nodejs-web-self-studying-enhancement-phase.git"
+  },
+  "keywords": [
+    "HTTP",
+    "Express4.0",
+    "Mongodb",
+    "Ejs",
+    "Passport",
+    "Gulp",
+    "Bower",
+    "Jshint",
+    "JSCS",
+    "Wiredep"
+  ],
+  "author": "Adam Kong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamKong/Nodejs-web-self-studying-enhancement-phase/issues"
+  },
+  "homepage": "https://github.com/AdamKong/Nodejs-web-self-studying-enhancement-phase#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.12.1",
+    "jade": "^1.11.0",
+    "mongodb": "^2.0.52",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "xml2js": "^0.4.15"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-nodemon": "^2.0.4",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "wiredep": "^2.2.2"
+  }
+}
